@@ -208,7 +208,7 @@ nav .close{}
 #box02>div{
   width: 980px;
   margin: 0 auto;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -329,7 +329,6 @@ nav .close{}
   width: calc(33.33333% - 18px);
   /* 33.33333% - 1em */
   margin-bottom: 50px;
-
 }
 #box05 #all>figure>img{
   margin-bottom: 50px;
