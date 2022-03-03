@@ -1,0 +1,222 @@
+@charset "utf-8";
+<<<<<<< HEAD
+/* font: Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+img{
+    max-width: 100%;
+}
+body{
+    font:18px/30px Arial,sans-serif;
+=======
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+img{
+  max-width:100%;
+}
+body{
+  font:18px/30px Arial,sans-serif;
+>>>>>>> 5a4a5a72b889943836e1975cfc851e1cbd534677
+}
+
+.hide{
+ width:0; height:0;
+ font-size:0; line-height:0;
+ position: absolute;
+ visibility: hidden;
+}
+<<<<<<< HEAD
+/* layout  */
+=======
+/*  layout ->  */
+>>>>>>> 5a4a5a72b889943836e1975cfc851e1cbd534677
+/* 공통 사항 */
+header>div,article>div{
+ width:1320px;
+ /* 컨텐츠크기 */
+ margin: 0 auto;
+ /* background-color:pink; */
+}
+<<<<<<< HEAD
+#box02,box03,box04,box05,box06{
+    padding: 85px 0;
+}
+div>h3{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.text{
+    margin-bottom: 50px;
+}
+/* header */
+header{
+    padding: 18px 0;
+    background-color: #333;
+    position: relative;
+    /* 타블렛과 모바일의 버튼떄문에 포지션값을 지정 */
+}
+header>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1>a{
+    font-family: '나눔고딕',Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* 네비게이션 */
+nav{}
+nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* -----------정리---------------- */
+}
+nav>ul>li{
+    margin-left: 40px;
+}
+nav>ul>li>a{
+    font-weight: bold;
+    color: #fff;
+}
+
+/* header 버튼 */
+#btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 18px; top: 18px;
+    background-color: aquamarine;
+    display: none;
+}
+nav .close{}
+
+/* box01 */
+#box01{
+    /* width: auto; */
+    height: calc(100vh - 70px);
+    /* 컨텐츠마다 다르기 때문에 */
+    position: relative;
+}
+#box01>h2{
+    position: absolute;
+    width: 676px; height: 280px;
+    border: 1px solid #fff;
+    left: 50%; top: 50%;
+    margin: -140px 0 0 -338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+}
+#box01>ul{
+    width: 400%; height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+}
+#box01>ul>li{
+    width: 25%;
+    /* ul의 1/4 */
+    height: 100%;
+    background: url('../images/blue.jpg') no-repeat center top;
+    background-size: 100%;
+    text-indent: -99999px;
+}
+#box01.no02{background-image: url('../images/pink.jpg');}
+#box01.no03{background-image: url('../images/purple.jpg');}
+#box01.no04{background-image: url('../images/green.jpg');}
+#box01.no{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+}
+#box01.no>a{
+    display: inline-block;
+    width: 20px; height: 20px;
+    margin: 0 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-indent: -99999px;
+}
+#box01.prev{}
+#box01.next{}
+=======
+#box02, #box03, #box04,#box05, #box06{
+  padding:85px 0;
+}
+div>h3{
+  font-size:48px;
+  text-align:center;
+  margin-bottom:35px;
+}
+
+.title{
+  font-size:30px;
+  margin-bottom:50px;
+}
+.text{
+  margin-bottom:50px;
+}
+
+/* header */
+header{
+  padding:18px 0;
+  background-color:#000;
+  /*  타블릿 모바일 버튼 */
+  position:relative;
+}
+header>div{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+header h1>a{
+  font-family:'나눔고딕',Arial,sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  color:#fff;
+}
+
+nav{}
+nav>ul{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+nav>ul>li{
+  margin-left:40px;
+}
+nav>ul>li>a{
+  font-weight:bold;
+  color:#fff;
+}
+
+/* header  버튼 */
+#btn{
+  width:30px;
+  height:30px;
+  position:absolute;
+  right:18px;
+  top:18px;
+  background-color:red;
+  display:none;
+}
+nav .close{}
+
+/* #box01 */
+
+>>>>>>> 5a4a5a72b889943836e1975cfc851e1cbd534677
