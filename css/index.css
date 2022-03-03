@@ -1,5 +1,5 @@
 @charset "utf-8";
-<<<<<<< HEAD
+
 /* font: Raleway */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 img{
@@ -7,29 +7,15 @@ img{
 }
 body{
     font:18px/30px Arial,sans-serif;
-=======
-/* font-family: 'Raleway', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-img{
-  max-width:100%;
 }
-body{
-  font:18px/30px Arial,sans-serif;
->>>>>>> 5a4a5a72b889943836e1975cfc851e1cbd534677
-}
-
 .hide{
  width:0; height:0;
  font-size:0; line-height:0;
  position: absolute;
  visibility: hidden;
 }
-<<<<<<< HEAD
-/* layout  */
-=======
 /*  layout ->  */
->>>>>>> 5a4a5a72b889943836e1975cfc851e1cbd534677
+
 /* 공통 사항 */
 header>div,article>div{
  width:1320px;
@@ -37,7 +23,7 @@ header>div,article>div{
  margin: 0 auto;
  /* background-color:pink; */
 }
-<<<<<<< HEAD
+
 #box02,box03,box04,box05,box06{
     padding: 85px 0;
 }
@@ -153,7 +139,6 @@ nav .close{}
 }
 #box01.prev{}
 #box01.next{}
-=======
 #box02, #box03, #box04,#box05, #box06{
   padding:85px 0;
 }
@@ -218,5 +203,28 @@ nav>ul>li>a{
 nav .close{}
 
 /* #box01 */
-
->>>>>>> 5a4a5a72b889943836e1975cfc851e1cbd534677
+/* box02 */
+#box02{}
+#box02>div{
+  width: 980px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#box02>div>dl{
+  width: 268px;
+  padding: 140px 0 54px;
+  text-align: center;
+  color: #fff;
+  background: #888 url('../images/header_icon_01.png') no-repeat center 62px;
+}
+#box02>div>dl:nth-child(2){background-image: url('../images/header_icon_02.png');}
+#box02>div>dl:nth-child(3){background-image: url('../images/header_icon_03.png');}
+#box02>div>dl>dt{
+  font-family: 'Raleway',Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#box02>div>dl>dd
