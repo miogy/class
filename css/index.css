@@ -85,7 +85,13 @@ nav>ul>li>a{
     background-color: aquamarine;
     display: none;
 }
-nav .close{}
+nav .close{
+  position: absolute;
+  right: 20px; top: 20px;
+  width: 30px; height: 30px;
+  background-color: red;
+  display: none;
+}
 
 /* box01 */
 #box01{
