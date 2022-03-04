@@ -7,8 +7,7 @@
     #box06>div>div{
         width: 1100px;}
     #box02>div{
-        width: 980px;
-    }
+        width: 980px;}
 /*  */
 }
 @media screen and (max-width:1329px) and (min-width:1150px){
@@ -17,13 +16,12 @@
     #box06>div>div{
         width: 1100px;}
     #box02>div{
-        width: 980px;
-}
+        width: 980px;}
 /*  */
 }
 @media screen and (max-width:1149px) and (min-width:990px){
     #box02>div{
-        width: 980px;
+        width: 980px;}
 /*  */
 }
 
@@ -96,6 +94,11 @@ nav .close{
     background-size: auto 100%;
 }
 /* box02 */
+#box02>div{
+    justify-content: space-evenly;
+  }
+  /* box03 */
+/*  */
 }
 @media screen and (max-width:579px) and (min-width:230px){
 /*  */
