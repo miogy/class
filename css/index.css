@@ -207,7 +207,7 @@ nav>ul>li>a{
   position:absolute;
   right:18px;
   top:18px;
-  background-color:red;
+  background-color:#fff;
   display:none;
 }
 nav .close{}
