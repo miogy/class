@@ -25,7 +25,7 @@ header>div,article>div{
  /* background-color:pink; */
 }
 
-#box02,box03,box04,box05,box06{
+#box02,#box03,#box04,#box05,#box06{
     padding: 85px 0;
 }
 div>h3{
