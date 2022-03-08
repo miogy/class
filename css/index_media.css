@@ -48,7 +48,7 @@
     }
     nav>ul{
         width: 100%; height: 100%;
-        background-color: aquamarine;
+        background-color: #666;
         flex-direction: column;
         display: flex;
         justify-content: center;
@@ -129,7 +129,49 @@ nav .close{
     margin: 0 auto;
     overflow: hidden;
   }
+
   /* box05 */
+  
+  /* 갤러리 전체담당 : 버튼조절 */
+  #box05 .box{
+    position: relative;
+}
+  #box05 #show{
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+  #box05 #all{
+    width: 160vw;
+  }
+  #box05 #all>figure{
+    width:24vw;
+    /* 33.33333% - 1em */
+    margin-bottom: 0;
+    margin: 0 1.333vw 0px;
+  }
+  #box05 #all>figure>img{
+    margin-bottom: 15px;
+  }
+  
+  /* 버튼 */
+  #box05 .box>.prev{
+      position: absolute;
+      top: 50%;
+      left: 3vw;
+      width: 3vw;
+      height: 3vw;
+      background-color: red;
+  }
+  #box05 .box>.next{
+      position: absolute;
+      top: 50%;
+      left: 3vw;
+      width: 3vw;
+      height: 3vw;
+      background-color: red;
+  }
+
 /*  */
 }
 @media screen and (max-width:579px) and (min-width:230px){
