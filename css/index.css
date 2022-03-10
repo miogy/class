@@ -19,7 +19,8 @@ body{
 
 /* 공통 사항 */
 header>div,article>div{
- width:1320px;
+ /* width:1320px; */
+ width: 98%;
  /* 컨텐츠크기 */
  margin: 0 auto;
  /* background-color:pink; */
@@ -44,7 +45,7 @@ div>h3{
 /* header */
 header{
     padding: 18px 0;
-    background-color: #333;
+    background-color: #000;
     position: relative;
     /* 타블렛과 모바일의 버튼떄문에 포지션값을 지정 */
 }
@@ -82,14 +83,14 @@ nav>ul>li>a{
     height: 30px;
     position: absolute;
     right: 18px; top: 18px;
-    background-color: aquamarine;
+    background-color: pink;
     display: none;
 }
 nav .close{
   position: absolute;
   right: 20px; top: 20px;
   width: 30px; height: 30px;
-  background-color: red;
+  background-color: pink;
   display: none;
 }
 
@@ -135,7 +136,7 @@ nav .close{
 #box01.no03{background-image: url('../images/purple.jpg');}
 #box01.no04{background-image: url('../images/green.jpg');}
 #box01.no{
-    position: absolute;
+    position:absolute;
     right: 100px;
     bottom: 30px;
 }
@@ -147,72 +148,19 @@ nav .close{
     background-color: #fff;
     text-indent: -99999px;
 }
-#box01.prev{}
-#box01.next{}
-#box02, #box03, #box04,#box05, #box06{
-  padding:85px 0;
+#box01.prev{
+  position: absolute;
+  width: 40px; height: 40px;
+  left: 50px; top:50%;
+  border: 1px solid #fff;
+  margin-top: -20px;
 }
-div>h3{
-  font-size:48px;
-  text-align:center;
-  margin-bottom:35px;
-}
-
-.title{
-  font-size:30px;
-  margin-bottom:50px;
-}
-.text{
-  margin-bottom:50px;
-}
-
-/* header */
-header{
-  padding:18px 0;
-  background-color:#000;
-  /*  타블릿 모바일 버튼 */
-  position:relative;
-}
-header>div{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-}
-
-header h1>a{
-  font-family:'나눔고딕',Arial,sans-serif;
-  font-size:30px;
-  font-weight:bold;
-  color:#fff;
-}
-
-nav{}
-nav>ul{
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-}
-nav>ul>li{
-  margin-left:40px;
-}
-nav>ul>li>a{
-  font-weight:bold;
-  color:#fff;
-}
-
-/* header  버튼 */
-#btn{
-  width:30px;
-  height:30px;
-  position:absolute;
-  right:18px;
-  top:18px;
-  background-color:#fff;
-  display:none;
-}
-nav .close{}
-
-/* #box01 */
+#box01.next{
+  position: absolute;
+  width: 40px; height: 40px;
+  left: 50px; top:50%;
+  border: 1px solid #fff;
+  margin-top: -20px;} 
 
 /* box02 */
 #box02{}
