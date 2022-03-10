@@ -19,7 +19,8 @@ body{
 
 /* 공통 사항 */
 header>div,article>div{
- width:1320px;
+ /* width:1320px; */
+ width: 98%;
  /* 컨텐츠크기 */
  margin: 0 auto;
  /* background-color:pink; */
@@ -44,7 +45,7 @@ div>h3{
 /* header */
 header{
     padding: 18px 0;
-    background-color: #333;
+    background-color: #000;
     position: relative;
     /* 타블렛과 모바일의 버튼떄문에 포지션값을 지정 */
 }
@@ -82,14 +83,14 @@ nav>ul>li>a{
     height: 30px;
     position: absolute;
     right: 18px; top: 18px;
-    background-color: aquamarine;
+    background-color: pink;
     display: none;
 }
 nav .close{
   position: absolute;
   right: 20px; top: 20px;
   width: 30px; height: 30px;
-  background-color: red;
+  background-color: pink;
   display: none;
 }
 
@@ -135,7 +136,7 @@ nav .close{
 #box01.no03{background-image: url('../images/purple.jpg');}
 #box01.no04{background-image: url('../images/green.jpg');}
 #box01.no{
-    position: absolute;
+    position:absolute;
     right: 100px;
     bottom: 30px;
 }
@@ -147,72 +148,19 @@ nav .close{
     background-color: #fff;
     text-indent: -99999px;
 }
-#box01.prev{}
-#box01.next{}
-#box02, #box03, #box04,#box05, #box06{
-  padding:85px 0;
+#box01.prev{
+  position: absolute;
+  width: 40px; height: 40px;
+  left: 50px; top:50%;
+  border: 1px solid #fff;
+  margin-top: -20px;
 }
-div>h3{
-  font-size:48px;
-  text-align:center;
-  margin-bottom:35px;
-}
-
-.title{
-  font-size:30px;
-  margin-bottom:50px;
-}
-.text{
-  margin-bottom:50px;
-}
-
-/* header */
-header{
-  padding:18px 0;
-  background-color:#000;
-  /*  타블릿 모바일 버튼 */
-  position:relative;
-}
-header>div{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-}
-
-header h1>a{
-  font-family:'나눔고딕',Arial,sans-serif;
-  font-size:30px;
-  font-weight:bold;
-  color:#fff;
-}
-
-nav{}
-nav>ul{
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-}
-nav>ul>li{
-  margin-left:40px;
-}
-nav>ul>li>a{
-  font-weight:bold;
-  color:#fff;
-}
-
-/* header  버튼 */
-#btn{
-  width:30px;
-  height:30px;
-  position:absolute;
-  right:18px;
-  top:18px;
-  background-color:#fff;
-  display:none;
-}
-nav .close{}
-
-/* #box01 */
+#box01.next{
+  position: absolute;
+  width: 40px; height: 40px;
+  left: 50px; top:50%;
+  border: 1px solid #fff;
+  margin-top: -20px;} 
 
 /* box02 */
 #box02{}
@@ -249,6 +197,7 @@ nav .close{}
 }
 #box03>div{}
 #box03>div>div{
+  /* width:1100px */
   width: 98%;
   margin: 0 auto;
   /* background-color: #333; */
@@ -261,7 +210,9 @@ nav .close{}
   position: absolute;
   left: 0; top: 0;
 }
-#box03 .btn{}
+#box03 .btn{
+  text-align: right;
+}
 #box03 .btn>button{
   width: 196px; height: 54px;
   background-color: #9c9491;
@@ -295,17 +246,17 @@ nav .close{}
   text-indent: -99999px;
   background: url('../images/icon/html5.png') no-repeat center;
 }
-#box04>div>div>ul>li:nth-child(2){background: url('../images/icon/css3.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(3){background: url('../images/icon/javascript.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(4){background: url('../images/icon/jquery.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(5){background: url('../images/icon/vue.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(6){background: url('../images/icon/react.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(7){background: url('../images/icon/bootstrap.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(8){background: url('../images/icon/git.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(9){background: url('../images/icon/npm.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(10){background: url('../images/icon/typescript.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(11){background: url('../images/icon/sass.png') no-repeat center;}
-#box04>div>div>ul>li:nth-child(12){background: none;}
+#box04>div>div>ul>li:nth-child(2){background-image:url('../images/icon/html5.png');}
+#box04>div>div>ul>li:nth-child(3){background-image:url('../images/icon/css3.png');}
+#box04>div>div>ul>li:nth-child(4){background-image:url('../images/icon/javascript.png');}
+#box04>div>div>ul>li:nth-child(5){background-image:url('../images/icon/jquery.png');}
+#box04>div>div>ul>li:nth-child(6){background-image:url('../images/icon/vue.png');}
+#box04>div>div>ul>li:nth-child(7){background-image:url('../images/icon/react.png');}
+#box04>div>div>ul>li:nth-child(8){background-image:url('../images/icon/bootstrap.png');}
+#box04>div>div>ul>li:nth-child(9){background-image:url('../images/icon/git.png');}
+#box04>div>div>ul>li:nth-child(10){background-image:url('../images/icon/typescript.png');}
+#box04>div>div>ul>li:nth-child(11){ background-image:url('../images/icon/sass.png');}
+#box04>div>div>ul>li:nth-child(12){background-image:none;}
 
 /* box05 */
 #box05{
@@ -330,7 +281,7 @@ nav .close{}
 }
 #box05>div>ul>li{
   border-left: 1px solid #fff;
-  padding: 10px;
+  padding:0 10px;
   line-height: 1;
 }
 
@@ -359,7 +310,7 @@ nav .close{}
 #box06{background-color: #9c9491;
   color: #fff;
 }
-#box06>div{
+#box06 a{
   color: #fff;
 }
 #box06>div>div{
@@ -388,14 +339,10 @@ nav .close{}
   background-size: 22px;
 }
 #box06>div>div>div dl:nth-child(2)>dt{
-  padding-left: 37px;
   background: url('../images/contact_icon_02.png') no-repeat left center;
-  background-size: 22px;
 }
 #box06>div>div>div dl:nth-child(3)>dt{
-  padding-left: 37px;
   background: url('../images/contact_icon_03.png') no-repeat left center;
-  background-size: 22px;
 }
 #box06>div>div>div dl>dd{
   padding-left: 37px;
